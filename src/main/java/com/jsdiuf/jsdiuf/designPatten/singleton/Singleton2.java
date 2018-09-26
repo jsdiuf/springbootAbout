@@ -7,7 +7,10 @@ package com.jsdiuf.jsdiuf.designPatten.singleton;
  **/
 public class Singleton2 {
     private volatile static Singleton2 singleton;
-    private Singleton2 (){}
+
+    private Singleton2() {
+    }
+
     public static Singleton2 getSingleton() {
         if (singleton == null) {
             synchronized (Singleton2.class) {
