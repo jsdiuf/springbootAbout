@@ -4,6 +4,7 @@ package com.jsdiuf.jsdiuf.designPatten.abstractFactory;
  * @author weicc
  * @create 2018-09-26 11:23
  * http://www.runoob.com/design-pattern/abstract-factory-pattern.html
+ * 抽象工厂模式
  **/
 public class AbstractFactoryPatternDemo {
     public static void main(String[] args) {
