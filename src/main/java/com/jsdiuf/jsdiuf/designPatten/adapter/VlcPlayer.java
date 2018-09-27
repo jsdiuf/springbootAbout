@@ -7,7 +7,7 @@ package com.jsdiuf.jsdiuf.designPatten.adapter;
 public class VlcPlayer implements AdvancedMediaPlayer {
     @Override
     public void playVlc(String fileName) {
-        System.out.println("playing vlc"+fileName);
+        System.out.println("playing vlc  "+fileName);
     }
 
     @Override
